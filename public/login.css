@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sub {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.sub:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #2196F3;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0d47a1;
+}
